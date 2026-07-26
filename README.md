@@ -1,5 +1,7 @@
 # quant-surface-stability
 
+> The pre-registered study behind [Does in-sample smoothness predict out-of-sample skill?](https://www.daru.finance/projects/strategy-surface-stability), by Daniel Gatto. Full write-up on [daru.finance](https://www.daru.finance).
+
 Pre-registered empirical study of the claim:
 
 > *"Smooth, broad ridges mean the family has a stable performance basin under perturbation of its parameters. Sharp spikes flanked by collapse mean the family is brittle — its in-sample peaks are likely overfit rather than real."*
