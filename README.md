@@ -1,6 +1,6 @@
 # quant-surface-stability
 
-> The pre-registered study behind [Does in-sample smoothness predict out-of-sample skill?](https://www.daru.finance/projects/strategy-surface-stability), by Daniel Gatto. Full write-up on [daru.finance](https://www.daru.finance).
+> The pre-registered study behind [Does in-sample smoothness predict out-of-sample skill?](https://daru.finance/projects/strategy-surface-stability), by Daniel Gatto. Full write-up on [daru.finance](https://daru.finance).
 
 Pre-registered empirical study of the claim:
 
