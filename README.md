@@ -24,15 +24,15 @@ figures/                   # final figures
 
 ```bash
 # Parse SOL (pilot)
-cargo run --release --bin parse_corpus -- --asset SOL_1h_7W
+cargo run --release --bin parse_corpus -- --root /path/to/Strategies --asset SOL_1h_7W
 
 # Pilot analysis
 python3 scripts/compute_metrics.py --asset SOL_1h_7W
 python3 scripts/fit.py --pilot
 
 # After hyperparameter lock:
-cargo run --release --bin parse_corpus -- --asset DOGE_30m_21W
-cargo run --release --bin parse_corpus -- --asset BTC_30m_27W
+cargo run --release --bin parse_corpus -- --root /path/to/Strategies --asset DOGE_30m_21W
+cargo run --release --bin parse_corpus -- --root /path/to/Strategies --asset BTC_30m_27W
 python3 scripts/compute_metrics.py --asset DOGE_30m_21W
 python3 scripts/compute_metrics.py --asset BTC_30m_27W
 python3 scripts/fit.py --replication

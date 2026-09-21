@@ -27,12 +27,12 @@ use walkdir::WalkDir;
 #[derive(clap::Parser, Debug)]
 #[command(name = "parse_corpus")]
 struct Args {
-    /// Asset directory under /mnt/d/Strategies/ (e.g. SOL_1h_7W)
+    /// Asset directory under --root (e.g. SOL_1h_7W)
     #[arg(long)]
     asset: String,
 
-    /// Override the strategies root if not /mnt/d/Strategies
-    #[arg(long, default_value = "/mnt/d/Strategies")]
+    /// Strategies root holding one directory per asset
+    #[arg(long)]
     root: PathBuf,
 
     /// Output directory
